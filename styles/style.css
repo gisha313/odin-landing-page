@@ -9,8 +9,12 @@ body {
     font-family: "Roboto", Verdana, sans-serif;
 }
 
+.header, .about-container {
+    background-color: #1F2937;
+}
+
 .header {
-    background-color: #9A1818;
+    padding: 8px 48px;
 }
 
 .header ul{
@@ -34,4 +38,45 @@ body {
 .secondary-text{
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 48px 0;
+}
+
+.about-text{
+    width: 35%;
+}
+
+.about-text > p, button{
+    margin-bottom: 12px;
+}
+
+.about-image-container{
+    width: 35%;
+}
+
+.about-image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.title-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    padding: 6px 24px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
 }
