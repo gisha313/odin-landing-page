@@ -41,6 +41,12 @@ body {
     font-size: 18px;
 }
 
+.dark-secondary-text{
+    color: #4B5563;
+    font-size: 18px;
+    text-align: center;
+}
+
 .about-container{
     display: flex;
     align-items: center;
@@ -80,4 +86,42 @@ button {
     font-weight: 600;
     font-size: 18px;
     border: none;
+}
+
+.info-cards{
+    margin-bottom: 72px;
+}
+
+.dark-title-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 8px;
+}
+
+.card-image {
+    max-width: 200px;
+}
+
+.card-image img{
+    width: 100%;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
