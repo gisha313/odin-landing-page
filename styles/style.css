@@ -196,3 +196,14 @@ button {
     border: 3px solid #F9FAF8;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 48px;
+    margin-top: auto;
+}
